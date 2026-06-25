@@ -1,0 +1,254 @@
+s```ad-warning
+**THIS NOTE PROVIDES ONLY A SURFACE UNDERSTANDING TO THIS CHAPTER**
+
+**PLEASE DO NOT DEPEND ON THIS NOTES. TEACHER'S NOTES IS MORE ACCURATE TO PREPARE FOR A LEVEL EXAMS.**
+
+**USE IT WISELY**
+```
+# Electrolysis
+
+Electrolysis cell:
+
+![[Pasted image 20260624143437.png|200]]
+
+#Concept
+1. Electrolyte - Compound that is decomposed (Can be molten ionic compound / aqueous solution)
+2. Electrode -  Carbon rods  (inert rod)or metal rods, to conduct electricity to and from electrolyte
+3. Anode - Positive electrode
+4. Cathode - Negative electrode
+
+How does it works:
+ - The battery provide electrical energy to both of the rod which provide the rod charges
+ - Electron flow to the rod connected to the negative terminal of the cell (cathode), and hence it will attract the positively charged ions (cation)
+ - Cations will receive electrons from cathode to undergo reduction
+ - Electron flow from the rod connected to the positive terminal of the cell (anode), and hence it will attract the negatively charged ions (anion)
+ - Anions will donate electrons to the anode to undergo oxidation
+
+Electrolysis:
+ - #Definition Decomposition of a compound into its element by an electric current
+ - Carried out through electrolysis cell
+ - During electrolysis, <mark style="background: #FF5582A6;">positive ions/cations</mark> move to <mark style="background: #FF5582A6;">cathode</mark> to gain electrons and <mark style="background: #ADCCFFA6;">negative ions</mark> move to <mark style="background: #ADCCFFA6;">anion</mark> to lose electrons
+
+---
+### Quantitative electrolysis
+
+Mass of a substance produced at an electrode during electrolysis is proportional to:
+ - Time over which a constant electric current passes
+ - Strength of the electric current
+
+#Calculation 
+To calculate amount of substances deposited,
+- Calculate the charge produced in t time with current I, $Q = I \times t$
+- Construct the half equations and find the charge of electrons to produces one mole of substance, $Q_{total} = n \times F, \text{where F is the Faraday's constant, } \ F = 96500 \ C^{-1}\  mol$ 
+- Calculate amount of substances deposited, $x$ with Faraday's second law of electrolysis, $\frac{1}{x} = \frac{nF}{Q}$ 
+- To calculate the Avogadro constant L, use $L = \frac{\text{charge on 1 mole of electrons}}{\text{charge of 1 electron}}$
+
+---
+### Electrode Potential
+
+#Concept 
+Redox equilibrium:
+ - Every half equation is a reversible reaction and hence it will achieve equilibrium.
+ - For example, $Cu^{2+} (aq) + 2e^{-} \rightleftharpoons \ Cu (s)$ 
+ - Equilibrium achieved when rate of electron loss is equal to rate of electron gain.
+ - When a metal is put into a solution of its ions, an electric potential is established between the metal and its ions to 'push' the electrons.
+ - Potential cannot directly measured, hence electrode potential, E is measured using comparison with standard hydrogen electrode
+
+Standard Electrode Potential, $E^{\textordmasculine}$ :
+- #Definition Potential difference when a half-cell is connected to a standard hydrogen electrode under standard condition, such as concentration of ions at $1.00 \ mol \ dm^{-3}$, temperature at 298 K and gas pressure of 1 atm
+- Measured in standard conditions:
+	1. Concentration of ions at $1.00 \ mol \ dm^{-3}$
+	2. Temperature at 25 C / 298 K
+	3. Gas involve in electrolysis should be at pressure of 1 atm / 101 kPa
+	4. Value of the potential of the half-cell is compared with standard hydrogen electrode
+- From the standard condition, we can know that standard hydrogen electrode has electrode potential of 0.00 V
+- A more positive $E^{\textordmasculine}$ value indicates the substance is easier to be reduced and more negative $E^{\textordmasculine}$ value indicates the substance is easier to be oxidised.
+
+Standard Hydrogen Electrode:
+
+![[Pasted image 20260624152630.png|2300]]
+
+```ad-note
+Platinum is used due to it allows close contact of hydrogen gas and hydrogen ions, so that the equilibrium is formed quickly. Platinum electrode is also inert and hence won't involved in the reaction.
+
+Conditions for standard hydrogen electrode are:
+	1. 1 atm gas pressure
+	2. 1.00 mol dm^-3 concentration of H+ ions
+	3. 298 K of temperature
+	4. Pt(s) as catalyst
+
+The half equation can be written as following: 
+$H^{+} (aq) \ + \ e^{-} \ \rightleftharpoons \ \frac{1}{2}H_{2} (g) \qquad E^{\textordmasculine} = 0.00V$
+```
+
+---
+### Measuring Standard Electrode
+
+![[Pasted image 20260624155815.png]]
+
+1. Metal / metal ion half-cell (Example: $Cu^{2+} / Cu$)
+$$
+\begin{flalign*}\\
+\text{Half equation: } \\
+&Cu^{2+} \ (aq) \ + \ 2e^{-} \ \rightleftharpoons \ Cu \ (s) &&E^{\textordmasculine} = + \ 0.34 \ V\\
+&H^{+} \ (aq) \ + \ e^{-} \ \rightleftharpoons \ \frac{1}{2}H_2 \ (g) &&E^{\textordmasculine} =   0.00 \ V \\
+\end{flalign*}
+$$
+- #Concept Explanation
+	-  The $Cu^{2+} / Cu$ half-cell is connected to a standard hydrogen electrode
+	- A voltmeter is connected between the wire connecting both electrode to measure the $E^{\textordmasculine}$ value with the Cu rod is connected to the positive terminal of voltmeter
+	- A salt bridge is connected between both electrolytes to allow flow of ions so that complete the circuit 
+	- Wire is connected to the electrode to allow flow of electrons
+	- Voltmeter shown a reading of +0.34V, which means the electrons flow from the positive terminal ($Cu^{2+} / Cu$) to the negative terminal ($H^{+}/H_2$).
+	- Hence, $Cu^{2+}$ will accept electrons from the $H^{+}/H_2$ half-cell and $H_2$ will lose electrons to the $Cu^{2+} / Cu$ half-cell
+
+```ad-note
+Salt bridge normally either can be filter paper or $KNO_3$ or any other salt that will not undergo precipitation with the reactant.
+```
+
+```ad-info
+Others type of half-cell are also similar to metal/ metal ion half-cell.
+The only tips in this part is if the $E^{\textordmasculine}$ is negative, oxidation occur and if the $E^{\textordmasculine}$ is positive, reduction occur instead.
+```
+
+---
+
+# $E^{\textordmasculine}$ value
+
+![[Pasted image 20260624164510.png|600]]
+
+### Standard Cell Voltages
+
+#Calculation 
+Standard cell voltages:
+- Voltage measured from electrochemical cell made up of two half-cells
+- General formula for it is $\text{(Standard Cell Voltage)} = E^{\textordmasculine} \text{(cathode)} - E^{\textordmasculine} \text{(anode)}$
+- Given a electrochemical cell $Zn \ | \ Zn^{2+} \ || \ Ag^{+} \ | \ Ag$ , the standard cell voltage is $+0.80 - (-0.76) = + 1.56 V$ 
+
+### Direction of Electron Flow
+#Concept
+To predict the direction of electron flow, remember that
+- $E^{\textordmasculine}$ with more negative value undergo oxidation while $E^{\textordmasculine}$ with more positive value undergo reduction
+- Hence, we can deduce that electron flow from more negative $E^{\textordmasculine}$  to more positive $E^{\textordmasculine}$
+- For example, direction of electron flow in electrochemical cell $Zn \ | \ Zn^{2+} \ || \ Ag^{+} \ | \ Ag$  from Zn rod to Ag rod.
+
+### Predict a Reaction is Feasible or not
+#Concept
+Comparing the value of $E^{\textordmasculine}$ for both species allow us to predict the type of reaction that is feasible for each species. 
+- Species with $E^{\textordmasculine}$ with more negative value have greater tendency for the half-equation to proceed in the reverse direction and vice versa
+- Species with $E^{\textordmasculine}$ with more negative value is easier to be oxidised and vice versa
+- Species on the right of the half-cell equation with $E^{\textordmasculine}$ with more negative value is a stronger reducing agent 
+- Species on the left of the half-cell equation with $E^{\textordmasculine}$ with more negative value is a weaker oxidising agent
+
+### Effect of Concentration to $E^{\textordmasculine}$ 
+#Concept
+Since the half-cell equation is a reversible equation, then we can apply Le Chatelier's principle on it.
+Given a electrolytic cell with half-cell equation  $Cu^{2+} (aq) + 2e^{-} \rightleftharpoons Cu (s) \qquad E^{\textordmasculine} = + \ 0.34 V$.
+
+|         If $[Cu^{2+}] > 1.00 \ mol  \ dm^{-3}$          |         If $[Cu^{2+}] < 1.00 \ mol  \ dm^{-3}$          |
+| :-----------------------------------------------------: | :-----------------------------------------------------: |
+|                 Equilibrium shift right                 |                 Equilibrium shift left                  |
+|      Forward reaction is more feasible (reduction)      |     Backward reaction is more feasible (oxidation)      |
+| Value of $E$ more positive than $E^{\textordmasculine}$ | Value of $E$ more negative than $E^{\textordmasculine}$ |
+
+### Predicting using $E^{\textordmasculine}$  under not standard condition
+#Concept
+Since the surrounding may varies under different condition, hence we need a general way to predict the spontaneity of the equation. The answer to this questions is if the difference $E^{\textordmasculine}$ of both equation is **GREATER** than 0.30 V, then the reaction is highly likely to occur.
+
+For example
+1. $$
+\begin{align*} 
+\frac{1}{2}Cl_{2}(aq) \ + \ e^{-} \ &\rightleftharpoons \ Cl^{-}(aq) \qquad &&E^{\textordmasculine} = + \ 1.36 \ V\\
+Fe^{3+} (aq) \ + \ e^{-} \ &\rightleftharpoons \ Fe^{2+}  (aq) \qquad &&E^{\textordmasculine} = + \ 0.77 \ V
+\end{align*}
+$$
+	- Since the difference in $E^{\textordmasculine}$ is greater than 0.30 V, hence under non standard condition, the reaction is still likely to occur
+
+2. $$
+\begin{align*} 
+\frac{1}{2}Cl_{2} (aq) \ + \ e^{-} \ &\rightleftharpoons \ Cl^{-} (aq) \qquad &&E^{\textordmasculine} = + \ 1.36 \ V\\
+MnO_{4}^{-} \ (aq) \ + \ 8H^{+} (aq) \ + \ 8e^{-} \ &\rightleftharpoons  \ Mn^{2+} (aq) \ + 4H_{2}O (l) \qquad &&E^{\textordmasculine} = +\ 1.53\ V
+\end{align*}
+$$
+	- Since the difference in $E^{\textordmasculine}$ is less than 0.30 V, hence under non standard condition, the reaction is not likely to occur
+
+```ad-caution
+Feasibility prediction based on $E^{\textordmasculine}$ do not always work.
+
+This is because $E^{\textordmasculine}$ only show that the reaction is possible, and the reverse reaction does not occur, but it doesn't guarantee the reaction will proceed quickly. Hence for some reactions, even thought the difference in $E^{\textordmasculine}$ is greater than 0.30 V, but it won't occur significantly due to low rate of reaction.
+```
+
+### Quick Summary for $E^{\textordmasculine}$ 
+
+|                        Value of $E^{\textordmasculine}$                         |                                               More -ve                                                |                        More +ve                        |
+| :-----------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------: | :----------------------------------------------------: |
+|                                Type of reaction                                 |                                               Oxidation                                               |                       Reduction                        |
+|                           Direction of electron flow                            |                                           Release electron                                            |                    Receive electron                    |
+|                                Type of substance                                |                        - Stronger reducing agent <br>- Weaker oxidising agent                         | - Stronger oxidising agent<br>- Weaker oxidising agent |
+|                        Feasibility of half-cell reaction                        |                                           Backward reaction                                           |                    Forward reaction                    |
+| Change in concentration <br>(In this case, $\text{[ oxidised form ]}$ increase) |                                        Equilibrium shift right                                        |                           <                            |
+|                                        ^                                        |                     Value of $E$ is greater than value of $E^{\textordmasculine}$                     |                           <                            |
+|                             Non standard condition                              | Likely to occur if difference in value of $E^{\textordmasculine}$ is greater than 0.30 V or otherwise |                           <                            |
+|                          Calculation of cell potential                          |            $E^{\textordmasculine} \text{(cathode)} - E^{\textordmasculine} \text{(anode)}$            |                           <                            |
+
+___
+
+### The Nernst equation
+
+#Calculation
+Consider the electrochemical cell $Cu \ | \ Cu^{2+} \ || \ Ag^{+} \ | \ Ag$ with reaction of $Cu \ (s) + 2Ag^{+} \ (aq) \ \rightleftharpoons \ Cu^{2+} \ (aq) \ + \ 2Ag \ (s) \qquad E^{\textordmasculine} \ = \ +  0.46  V$ .
+
+![[Pasted image 20260624220519.png|300]]
+
+By increasing the concentration of $Ag^{+}$, notice that the value of $E^{\textordmasculine}$ increase with $- log \ [Ag^{+}]$ (log is reffered to $log_{10}$)
+
+Using more data and information with different value of temperature and concentration, we can deduce the Nernst equation for a given electrode as following:
+$$
+E = E^{\textordmasculine} + \frac{RT}{zF}ln\frac{[\text{oxidised form}]}{[\text{reduced form}]}
+$$
+where
+- $E$  is the electrode potential under non-standard conditions
+- $E^{\textordmasculine}$ is the standard electrode potential
+- $R$  is the gas constant, $R = 8.314 \ J K^{-1} \ mol^{-1}$
+- $T$ is the temperature in kelvin
+- $z$ is the number of moles of electrons transferred in the given reaction
+- $F$ is the Faraday constant in $C \ mol^{-1}$ 
+
+For metal/metal ion electrode, this equation can be simplify with following steps:
+- $ln \ x = 2.303 \ log \ x$ 
+- R, T and F are constant at standard temperature
+- Since the reduced form is metal (in solid form), hence the fraction inside the logarithm can be replaced with $log \ [\text{oxidised form}]$ 
+
+Hence, for **metal/metal ion electrode**, the Nernst equation is shown as below:
+$$
+E = E^{\textordmasculine} + \frac{0.059}{z} \ log \ [\text{oxidised form}]
+$$
+
+___ 
+### Gibbs Free Energy and Cell Potential
+
+#Calculation
+The relationship of Gibbs free energy change and standard electrode potential can be shown as:
+$$
+\Updelta G^{\textordmasculine} = -nFE^{\textordmasculine}_{cell}
+$$
+where
+- $\Updelta G^{\textordmasculine}$ is the standard Gibbs free energy in $J \ mol^{-1}$
+- n is the number of moles of electrons transferred in the cell reaction
+- F is the Faraday constant, $F = 96500 \ C \ mol^{-1}$
+- $E^{\textordmasculine}_{cell}$ is the standard cell potential
+
+#Concept 
+The relationship of Gibbs free energy change, standard electrode potential and equilibrium coefficient also can be described:
+
+| Standard cell potential, $E^{\textordmasculine}_{cell}$ | Gibbs free energy, $\Updelta G^{\textordmasculine}$ |                  Effects                   | Equilibrium coefficient, $K$ |
+|:-------------------------------------------------------:|:---------------------------------------------------:|:------------------------------------------:|:----------------------------:|
+|                            0                            |                          0                          |         Equation is in equilibrium         |              1               |
+|                         > + 0.1                         |                  Slightly negative                  |        More products than reactants        |             > 1              |
+|                         > + 0.6                         |                        << 0                         | Forward reaction is complete/irreversible  |              -               |
+|                         < - 0.1                         |                  Slightly positive                  |        More reactants than products        |             < 1              |
+|                         < - 0.6                         |                        >> 0                         | Backward reaction is complete/irreversible |              -               |
+More details can be seen in the diagram. Note that relationship of equilibrium coefficient and Gibbs free energy and standard electrode potential is **NOT IN SYLLABUS**
+
+![[Pasted image 20260624224515.png | 400]]
+
