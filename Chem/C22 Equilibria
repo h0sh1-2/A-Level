@@ -1,0 +1,156 @@
+# Acid-base Equilibria
+
+### Acid base reaction
+
+Conjugate acid-base pair : 
+- #Definition <mark style="background: #ADCCFFA6;">Pair of reactants and products</mark> that are linked to each other
+-  #Concept Differ by one proton / $H^+$
+
+ $CH_{3}COOH (aq) + H_{2}O (l) \rightleftharpoons CH_{3}COO^{-} (aq) + H_{3}O^{+} (aq)$ 
+- $CH_{3}COOH$ and $CH_{3}COO^-$ are conjugate acid-base pair
+- $H_{2}O$ and $H_{3}O^+$ are conjugate acid-base pair
+- There are 2 acid in this equation, which are $CH_{3}COOH$ and $H_{3}O^+$ 
+- There are 2 base in this equation, which are $CH_{3}COO^-$ and $H_{2}O$
+
+ $HCl(aq) + H_{2}O (l) \rightarrow Cl^{-} (aq) + H_{3}O^{+} (aq)$ 
+ -  $HCl$ and $Cl-$ are conjugate acid-base pair
+- $H_{2}O$ and $H_{3}O^+$ are conjugate acid-base pair
+- There are **ONLY** 1 acid in this equation, which are $HCl$ (due to irreversible reaction)
+- There are **ONLY** 1 base in this equation, which are $H_{2}O$ (due to irreversible reaction)
+
+---
+### Ionic Product of Water
+
+$H_{2}O \rightleftharpoons H^{+} + OH^-$ 
+Equilibrium constant of this reaction, $K_{w} = [H^{+}][OH^-]$ 
+$K_w$ is also known as ionic product of water, $K_{w} = 1.00 \times 10^{-14}$ at 279 K
+#Calculation
+
+$$
+\begin{gather}
+\because [H^{+}] = [OH^{-}] \\
+\therefore  K_{w} = [H^{+}]^2 \\
+[H^{+}] = \sqrt{1.00 \times 10^{-14}} = 1.00 \times 10^{-7}
+\end{gather}
+$$
+
+---
+### Strong acid-base reaction
+
+pH: 
+- #Definition Negative logarithm to base 10 of $H^{+}$ / $pH = - log_{10}{[H^{+}]}$ 
+- For strong acid, since the dissociation of proton in water is complete, hence $[HA] = [H^{+}]$  for $HA \rightarrow H^{+} + OH^{-}$ 
+- #Calculation If the substance is neutral ($[H^{+}] = [OH^{-}]$), $pH = - log_{10}{[1.00 \times 10^{-7}]} = 7$ 
+
+---
+
+### Weak acid-base reaction
+
+#Calculation
+Given chemical reaction $HA (aq) \rightleftharpoons H^{+} + A^{-}$
+Acid dissociation constant, $K_{a}= \frac{[H^{+}][A^{-}]}{[HA]}$
+
+$$
+\begin{gather}
+\because [H^{+}] = [A^{-}] \ ,([H^{+}] \neq [HA]) \\
+\therefore K_{a} = \frac{[H^{+}]^{2}}{[HA]} \\
+\text{Define } pK_{a} = - log_{10}{K_a}
+\end{gather}
+$$
+
+Assumption made for weak acid:
+1. $[H^+]$ in water is negligible
+2. $[HA]$ in equilibrium = initial $[HA]$
+
+```ad-note
+title: Concept
+Note that higher the $K_a$, weaker the acid
+
+```
+
+---
+
+### Buffer solution
+
+Buffer solution:
+- #Definition A solution in which the pH does not change significantly when small amounts of acids or alkalis are added
+- Keep the pH of the substance constant from addition of small amount of acid or base
+- Consist of weak acid + conjugate base or weak base + conjugate acid
+- #Concept Example: 
+$$
+\begin{gather}
+\text{Acid base reaction: } CH_{3}COOH (aq) \rightleftharpoons H^{+} (aq) \ + CH_{3}COO^{-} (aq) \\
+\text{Buffer solution: } CH_{3}COONa(s) + aq \rightarrow
+ CH_{3}COO^{-} (aq) \ + Na^{+} (aq)
+\end{gather}
+$$
+
+|                When H+ is added                |                    When OH- is added                     |
+|:----------------------------------------------:|:--------------------------------------------------------:|
+| $CH_{3}COO^{-} + H^{+} \rightarrow CH_{3}COOH$ | $CH_{3}COOH + OH^{-} \rightarrow CH_{3}COO^{-} + H_{2}O$ |
+| Equilibrium shift left | Equilibrium shift right |
+| Large reserve supply of $CH_3COOH$ and $CH_{3}COO^{-}$ results in negligible change of $[CH_3COOH]$ and $[CH_{3}COO^{-}]$ | < |
+
+- #Calculation Calculation:
+$$
+\begin{gather}
+HA \; \rightleftharpoons \; H^{+} + A^{-} \qquad MA \; \rightarrow \; M^{+} + A^{-} 
+\\
+K_{a} = \frac{[H^{+}][A^{-}]}{[HA]} \\
+pK_{a} = - log_{10} {\frac{[H^{+}][A^{-}]}{[HA]}} \\
+pH = pK_{a} \: + \: log_{10} \frac{\text{[conjugate base]}}{\text{[acid]}}
+\end{gather}
+$$
+___
+# Solubility Equilibria
+
+Solubility:
+- #Definition Number of grams or moles needed to saturate 100 g or 1 kg of water
+- Equilibrium form when ionic compound is in contact with a saturated solution of its ion
+- Only can used for slightly soluble salts
+- Smaller $K_{sp}$ means lower solubility
+- #Calculation $K_{sp} = (x \times [A^{+}])^{x}(y \times [B^{-}])^{y} \text{ for } A_{x}B_{y} \; \rightleftharpoons \; xA^{+} + yB^{-}$ , where $K_{sp}$ is solubility product at 293K
+
+```ad-note
+title: Soluble vs Dissociate
+
+$Mg(OH)_{2} \ (s) \ \rightleftharpoons \ Mg(OH)_{2} \ (aq) \ \rightarrow \ Mg^{2+}  (aq) + 2OH^{-}  (aq)$
+
+Notice that MgOH(s) form equilibrium with MgOH(aq), and the equilibrium coefficient in this context is solubility product, this is called partially soluble.
+
+However, MgOH(aq) is fully ionised into its ions. Hence, the equation also can be written to $Mg(OH)_{2} \ (s) \ \rightleftharpoons \ Mg^{2+}  (aq) + 2OH^{-}  (aq)$
+```
+
+
+Common ion effect:
+- #Concept Adding a solution with a common ion with the dissolved salt, the solubility will reduce and precipitate is formed
+- By Le Chatelier's Principle, increasing concentration of ions will shift the equilibrium to left, and hence more solid form.
+- #Calculation $$
+\begin{gather}
+\text{Define } Q_{sp} = (x \times [A^{+}])^{x}(y \times [B^{-}])^{y} \ \text{ for } A_{x}B_{y} \; \rightleftharpoons \; xA^{+} + yB^{-} \\
+\text{If } Q_{sp} \textgreater K_{sp}, \text{ then it is insoluble in water. Otherwise it is soluble}
+\end{gather}
+$$
+- Example: 
+$$
+AgCl(s) \rightleftharpoons Ag^{+} + Cl^{-}
+$$
+	- NaCl solution is added
+	- $Cl^{-}$ ion is the common ion
+	- The equilibrium shift to the left
+	- Precipitate formed
+
+___
+# Partition Coefficient
+
+Partition coefficient:
+ - #Definition Ratio of the concentration of a solute in two solvent at equilibrium
+ - #Calculation Denoted by $K_{pc}$, where it can be calculated with $K_{pc} = \frac{\displaystyle [\text{A}(\text{solvent 2})\ ]}{\displaystyle [\text{A}(\text{solvent 1})\ ]}$ for $\text{A (solvent 2)} \rightleftharpoons \text{A (solvent 1)}$ 
+ - #Concept Solubilities of solute varies by strength of attraction between solute and solvent
+	 1. NH3 
+		 - NH3 form hydrogen bond with water -> NH3 is more soluble in water
+		 - NH3 form weaker id-id and pd-pd in organic solvent -> NH3 is less soluble in water
+		 - Hence, $K_{sp} = \frac{\displaystyle [NH_{3} (\text{organic solvent})]}{\displaystyle [NH_{3} (\text{water})]} < 1$ .
+	2. I2
+		- I2 only can form id-id with both water and organic solvent -> I2 is more soluble in organic solvent
+		- Hence, $K_{sp} = \frac{\displaystyle [I_{2} (\text{organic solvent})]}{\displaystyle [I_{2} (\text{water})]} > 1$ .
